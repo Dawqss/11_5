@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Poiret+One|Share+Tech+Mono|Lobster");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+body {
+  margin: 0;
+  background: #2c3e50;
+  overflow: hidden; }
+  body h1 {
+    font-family: "Lobster";
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    padding-bottom: 14%; }
+
+.box, .underbox, .container {
+  margin: 0 auto;
+  text-align: center;
+  color: white; }
+
+.container {
+  max-width: 75%;
+  background: #34495e;
+  height: 100vh;
+  padding: 40px 20px; }
+
+.box {
+  font-family: "Share Tech Mono";
+  background: #95a5a6;
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 10%; }
+  .box p {
+    padding: 10px; }
+
+.underbox {
+  font-family: "Lobster"; }
+  .underbox p {
+    font-size: 23px; }
+  .underbox i {
+    padding-right: 10px; }
+  .underbox a {
+    display: inline-block;
+    text-decoration: none;
+    width: 148.7px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #95a5a6;
+    border-radius: 10px;
+    transition: 0.2s linear;
+    color: black; }
+    .underbox a:hover {
+      background-color: #55acee;
+      color: white; }
+  .underbox button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #95a5a6;
+    border: none;
+    transition: 0.2s linear;
+    cursor: pointer;
+    font-family: helvetica;
+    margin-bottom: 2%; }
+    .underbox button:hover {
+      background-color: #7f8c8d;
+      color: white; }
+
+/*# sourceMappingURL=style.css.map */
