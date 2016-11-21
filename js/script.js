@@ -21,10 +21,7 @@ $(function(){
 			$('.tweet').attr('href', tweet);
 		}
 	}
-
-	$(document).ready(function() {
-		getQuote();
-		$('.trigger').click(function() {getQuote();})
-	});
+	getQuote();
+	$('.trigger').click(getQuote);
 });
 
